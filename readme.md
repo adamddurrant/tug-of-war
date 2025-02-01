@@ -9,6 +9,10 @@ This is a simple **Tug of War** game built using **React Native**. The game cons
 - Dynamic color transitions for visual feedback.
 - Reset button to restart the game.
 
+## Screenshot
+
+![screenshot](/assets/tug-of-war.png)
+
 ## Prerequisites
 Before running the app, ensure you have the following installed:
 - [Node.js](https://nodejs.org/) (v14 or higher)

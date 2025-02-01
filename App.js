@@ -88,14 +88,14 @@ export default function App() {
         onStartShouldSetResponder={() => true}
         onResponderRelease={handleTopTap}
       >
-        <Text style={styles.tapText}>Tap!</Text>
+        <Text style={styles.tapText}>TAP!</Text>
       </Animated.View>
       <Animated.View
         style={[styles.bottomHalf, { height: bottomHeight, backgroundColor: bottomBackgroundColor }]}
         onStartShouldSetResponder={() => true}
         onResponderRelease={handleBottomTap}
       >
-        <Text style={styles.tapText}>Tap!</Text>
+        <Text style={styles.tapText}>TAP!</Text>
       </Animated.View>
     </View>
   );
@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
   },
   tapText: {
     fontSize: 24,
-    color: '#fff',
+    color: '#000',
     fontWeight: 'bold',
   },
   winnerBanner: {
